@@ -1,1 +1,8 @@
 # Movies-ETL
+## Overview of Project
+This repository serves to illustrate the Extract-Transform-Load procedure that is an integral part of data science. This repository provides examples of incorporating various kinds of functions and list comprehension techniques to streamline--as much as possible--the tedious work of cleaning large data sets. This project pulls data from a wikipedia json file as well as metadata csv files from Kaggle.com. <br /> <br />
+This project begins with reading these data into pandas dataframes in order to do some exploratory analysis to determine the scope of the requisite cleaning process here. Layer-by-layer, rounds of analysis are done to clean and remove unnecessary data (such as duplicates or unhelpful data such as alternative languages of data). This project culminates in the production of delivery 3 which entails each layer of this analysis in two large functions called "clean_movie()" and "extract_transform_load()." The latter function is quite substantial and creates various other functions nested within it. <br /> <br />
+Finally, deliverable 3's ETL function uploads two pandas dataframes into SQL databases via Postrgres to come full circle in the ETL process. The databases are ready to be shared with other scientists in the ETL pipeline for further querying. 
+
+## Summary 
+I am very proud of this example, despite the lack of showiness. The code here is intensive and marks a milestone in my own Python skill and knowhow. This serves as an excellent resource for further ETL projects and real-world use. 
